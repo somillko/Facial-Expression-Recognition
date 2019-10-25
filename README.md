@@ -15,3 +15,6 @@ The performance of the model on various emotions is mentioned. There are Basical
 * Sad
 * Surprise
 * Neutral
+
+## Testing Images
+I've also provided some testing images for the model to test on so that you can also judge the performance yourself.

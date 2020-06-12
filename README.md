@@ -46,3 +46,5 @@ I've also provided some testing images for the model to test on so that you can 
 
 ## To Run the code
 Train the model created in the python code on a cloud based GPU(google colab preferably) to download a trained weights files with the .h5 extension. Since it is a large file, download and keep it in the same directory as the project and accordingly adjust the pathnames in the vide_test and image_test code. The .h5 file is a trained weights file which actually contains the complete model trained which needs to be imported in the python files for the output to be same as depicted in the screenshots.
+
+After downloading the .h5 file, to run the video_test.py file simply type **python video_test.py**. It will open up the front camera of your laptop and start to determine. For the image do the same but also add the path of the image after the python command and it will generate the result. Also make sure, that python is set as your environment variable otherwise it may generate a non recognized statement error.
